@@ -24,3 +24,46 @@ The data set contains the following diseases:
 
 ![datasetdf](https://github.com/bshivagunde/Convolutional_Neural_Network/blob/master/Project_Images/class_distribution_table.PNG)
 ![datasetdf](https://github.com/bshivagunde/Convolutional_Neural_Network/blob/master/Project_Images/class_distribution.PNG)
+
+## Project Pipeline
+- Data Reading/Data Understanding → Defining the path for train and test images 
+- Dataset Creation→ Create train & validation dataset from the train directory with a batch size of 32. Also, make sure you resize your images to 180*180.
+- Dataset visualisation → Create a code to visualize one instance of all the nine classes present in the dataset 
+- Model Building & training : 
+    Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescale images to normalize pixel values between (0,1).
+- Choose an appropriate optimiser and loss function for model training
+- Train the model for ~20 epochs
+- Write your findings after the model fit, see if there is evidence of model overfit or underfit
+- Choose an appropriate data augmentation strategy to resolve underfitting/overfitting 
+**Model Building & training on the augmented data :**
+  - Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescale images to normalize pixel values between (0,1).
+  - Choose an appropriate optimiser and loss function for model training
+  - Train the model for ~20 epochs
+  - Write your findings after the model fit, see if the earlier issue is resolved or not?
+**Class distribution: **
+  - Examine the current class distribution in the training dataset 
+  - Which class has the least number of samples?
+  - Which classes dominate the data in terms of the proportionate number of samples?
+**Handling class imbalances:** 
+  - Rectify class imbalances present in the training dataset with Augmentor library.
+**Model Building & training on the rectified class imbalance data:**
+  - Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescale images to normalize pixel values between (0,1).
+  - Choose an appropriate optimiser and loss function for model training
+  - Train the model for ~20 epochs
+  - Write your findings after the model fit, see if the issues are resolved or not?
+ 
+To overcome the issue of class imbalance, used a python package  Augmentor (https://augmentor.readthedocs.io/en/master/) to add more samples across all classes so that none of the classes have very few samples.
+
+## Technologies Used
+	- numpy - version 1.23.5
+	- pandas - version 1.5.3
+	- matplotlib - version 3.7.1
+	- seaborn - version 0.12.2
+	- scipy - version 1.11.3
+	- tensorflow - version 2.15.0
+
+## Acknowledgements
+This project was conducted by Mr. B. M. Shivagunde.
+
+## Contact
+Created by [@bshivagunde](https://github.com/bshivagunde) - Feel free to contact me!
