@@ -22,5 +22,5 @@ The data set contains the following diseases:
 8. Squamous cell carcinoma
 9. Vascular lesion
 
-![datasetdf](https://github.com/kshitij-raj/Melanoma-Skin-Cancer-Detection/blob/f143d178495ec6490ce2ee18c4cbbfb2e1388cea/Readme_images/Datasetdf.png)
-![datasetdf](https://github.com/kshitij-raj/Melanoma-Skin-Cancer-Detection/blob/f143d178495ec6490ce2ee18c4cbbfb2e1388cea/Readme_images/Datasetdf.png)
+![datasetdf](https://github.com/bshivagunde/Convolutional_Neural_Network/blob/master/Project_Images/class_distribution_table.PNG)
+![datasetdf](https://github.com/bshivagunde/Convolutional_Neural_Network/blob/master/Project_Images/class_distribution.PNG)
